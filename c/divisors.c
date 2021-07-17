@@ -19,5 +19,5 @@ int getDivisors(long long n)
 int main()
 {
     printf("divisors: %d\n", getDivisors(4324320));
-    return 0;
+    exit(0);
 }
