@@ -12,5 +12,5 @@ def catalan(n):
     return catalan[n]
  
 # driver code
-for i in range(25):
-    print(catalan(i))
+for k in range(25):
+    print(catalan(k))
