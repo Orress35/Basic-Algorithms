@@ -5,4 +5,4 @@ squareSum :: [Integer] -> Integer
 squareSum x = sum(map square x)
 
 main = do
-  print(squareSum([1..5]))
+  print(squareSum [1..5])
