@@ -10,6 +10,7 @@ def isprime(n):
             return True
     return False
 
+# driver code
 for i in range(1, 1000):
     if isprime(i):
         print("prime number found: %d", i)

@@ -1,7 +1,8 @@
 #include <iostream>
 #include <cmath>
 
-int getDivisors(long long n) {
+int getDivisors(long long n)
+{
     if (n <= 1) return 1;
     int divisors = 1;
     if (n % 2 != 0) {

@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int gcd(int x, int y) {
+int gcd(int x, int y)
+{
     int result = -1;
     bool even  = x % 2 == 0 && y % 2 == 0;
     if (even) {
@@ -17,7 +18,8 @@ int gcd(int x, int y) {
 }
 
 // driver code
-int main() {
+int main()
+{
     printf("%d\n", gcd(25, 50));
     exit(0);
 }

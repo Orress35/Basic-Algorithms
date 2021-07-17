@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-int getDivisors(long long n) {
+int getDivisors(long long n)
+{
     if (n <= 1) return 1;
     int divisors = 1;
     if (n % 2 != 0) {
@@ -15,7 +16,8 @@ int getDivisors(long long n) {
 }
 
 // driver code
-int main() {
+int main()
+{
     printf("divisors: %d\n", getDivisors(4324320));
     return 0;
 }
