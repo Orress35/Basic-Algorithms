@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <iostream>
 
 int sumOfSquares(int* arr)
 {
@@ -11,6 +11,6 @@ int sumOfSquares(int* arr)
 int main()
 {
     int arr[5] = {1, 2, 3, 4, 5};
-    printf("%d", sumOfSquares(arr));
+    std::cout << sumOfSquares(arr) << std::endl;
     exit(0);
 }
