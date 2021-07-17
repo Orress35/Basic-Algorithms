@@ -1,4 +1,4 @@
-divisors n = [x | x <- [1..(n-1)], n `rem` x == 0]
+divisors n = 1 : filter ((==0) . rem n) [2 .. n `div` 2]
 
 main = do
     print(divisors 4324320)
