@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 func getDivisors(n int) int {
@@ -9,7 +10,7 @@ func getDivisors(n int) int {
 		return 1
 	}
 	divisors := 1
-	for i := 1; i <= n/2; i++ {
+	for i := 1; i <= int(math.Sqrt(float64(n))); i++ {
 		if n%i == 0 {
 			divisors++
 		}

@@ -1,5 +1,5 @@
 def divisors(n)
-    (1..n).select { |i| n % i == 0}.length
+    (1..Math.sqrt(n)).select { |i| n % i == 0}.length * 2
 end
 
 # driver code
