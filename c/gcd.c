@@ -17,7 +17,7 @@ int gcd(int x, int y)
     return result;
 }
 
-// driver code
+/* driver code */
 int main()
 {
     printf("%d\n", gcd(25, 50));
