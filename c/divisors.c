@@ -10,7 +10,7 @@ int getDivisors(long long n)
     return divisors;
 }
 
-// driver code
+/* driver code */
 int main()
 {
     printf("divisors: %d\n", getDivisors(4324320));
