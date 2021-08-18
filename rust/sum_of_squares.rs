@@ -1,4 +1,4 @@
-fn sumOfSquares(arr) {
+fn sum_of_squares(arr) {
     let sum = 0;
     for i in arr {
         sum += i;
@@ -8,5 +8,5 @@ fn sumOfSquares(arr) {
 
 // driver code
 fn main() {
-    println("{}", sumOfSquares([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+    println("{}", sum_of_squares([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 }
