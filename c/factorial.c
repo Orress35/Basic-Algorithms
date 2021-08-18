@@ -8,7 +8,7 @@ unsigned long long factorial(int n)
     return result;
 }
 
-// driver code
+/* driver code */
 int main()
 {
     printf("factorial: %d\n", factorial(4));
