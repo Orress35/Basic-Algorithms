@@ -1,4 +1,4 @@
-fn getDivisors(n) {
+fn get_divisors(n) {
     if (n <= 1) return 1;
     let divisors = 1;
     for (let i = 1; i <= n/2; i++) {
@@ -9,5 +9,5 @@ fn getDivisors(n) {
 
 // driver code
 fn main() {
-    println!("divisors: {}", getDivisors(4324320));
+    println!("divisors: {}", get_divisors(4324320));
 }
