@@ -11,7 +11,8 @@ int getDivisors(long long n)
 }
 
 // driver code
-int main() {
+int main()
+{
     std::cout << "divisors: " << getDivisors(4324320) << std::endl;
     exit(0);
 }
