@@ -18,7 +18,7 @@ unsigned long long fib(int pos)
     return -1;
 }
 
-// driver code
+/* driver code */
 int main()
 {
     printf("11 : %d\n", fib(11));
